@@ -1,5 +1,9 @@
- price = 0;
- grantotal=0;
+
+
+
+
+ let price = 0;
+ let grantotal=0;
 
 function handleproduct(product)
 {
@@ -52,10 +56,18 @@ function handleproduct(product)
     }
 
     grantotal=Math.round(grantotal)
+
     document.getElementById("total-list").innerHTML = grantotal+" $";
 
-
     }
+
+
+    function alerta() {
+        alert("El monto a cancelar es de: " + grantotal+" $");
+      }
+
+
+
 
    
       
